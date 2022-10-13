@@ -12,13 +12,13 @@
 
 :root {
     --color-bg: #eae7dc;
-    --color-bg-variant: #cabdaa;
+    --color-bg-variant: #cabfca;
     --color-primary: #80558C;
     /* Try #7262d9 and white accents/background */
     --color-primary-variant: #AF7AB3;
     --color-black: rgb(0, 0, 0);
     --color-white: #ffff;
-    --color-light: #8e8d8a;
+    --color-light: #5d5c59;
 
     --transition: all 400ms ease;
 

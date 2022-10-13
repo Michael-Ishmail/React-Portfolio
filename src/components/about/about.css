@@ -1,7 +1,8 @@
 .about_container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    /* grid-template-columns: 35% 50%; */
     gap: 15%;
+    margin: 0px 5rem;
 }
 
 .about_me {
@@ -63,6 +64,7 @@
 .about_content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: center;
 }
 
 /* Media Queries (Medium sized devices) */
