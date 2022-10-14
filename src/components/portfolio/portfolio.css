@@ -1,8 +1,7 @@
 .portfolio_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-    margin: 0 5rem;
 }
 
 .portfolio_item {
@@ -29,8 +28,13 @@
 
 .portfolio_item-cta {
     display: flex;
+    justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* Media Queries (Medium sized devices) */

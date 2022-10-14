@@ -11,7 +11,8 @@ const Header = () => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Michael Ishmail</h1>
-        <h5 className='text-light'></h5>
+        <h5 className='text-light'>Welcome to my portfolio!</h5>
+        <h1 className='wave'>👋</h1>
         <CTA />
         <HeaderSocials />
         <div className="me">

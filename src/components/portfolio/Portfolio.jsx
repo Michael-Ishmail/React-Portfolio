@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/Portfolio1.png'
 import IMG2 from '../../assets/Portfolio2.png'
 import IMG3 from '../../assets/Portfolio3.png'
+import IMG4 from '../../assets/Portfolio4.png'
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='portfolio_container'>
+      <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
             <img src={IMG1} alt='Portfolio project number 1'></img>
@@ -43,6 +44,18 @@ const Portfolio = () => {
             <a href='https://bennyson9.github.io/Tourist-Buddy/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'>
+            <img src={IMG4} alt='Portfolio project number 4'></img>
+          </div>
+          <h3>This website!</h3>
+          <div className="portfolio_item-cta">
+            <a href='https://github.com/Michael-Ishmail/React-Portfolio' className='btn text' target='_blank'>Github Repository</a>
+            <a href='https://michael-ishmail.github.io/React-Portfolio/' className='btn btn-primary text' target='_blank'>Live Demo (But you're here 🤔)</a>
+          </div>
+        </article>
+
       </div>
     </section>
   )
