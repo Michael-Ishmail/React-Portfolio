@@ -8,6 +8,13 @@ const Footer = () => {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <footer>This website was made with ❤️ by Michael Ishmail</footer>
+            <br />
+            <br />
+            <br />
+            <br />
         </footer>
     )
 }
