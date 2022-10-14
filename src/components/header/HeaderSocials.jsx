@@ -10,6 +10,7 @@ const HeaderSocials = () => {
   //       {/* <a href='https://github.com' target='_blank'><BsGithub/></a> */}
   //   </div>
   // )
+  
 }
 
 export default HeaderSocials
